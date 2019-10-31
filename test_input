@@ -1,0 +1,18 @@
+declare
+    i: integer;
+    b: boolean;
+begin
+    get(i);
+    b := false;
+    b := i<10 and not b;
+    declare
+        b: integer;
+    begin
+        b := 5;
+        i := 2*(i+b);
+    end;
+    b := 1<i and i<35 and not b;
+    put(i);
+    put(b);
+end;
+

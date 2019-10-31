@@ -1,0 +1,9 @@
+declare
+    i:integer;  -- a comment
+    b:boolean;
+Begin
+    b := true;
+    i := 100;
+    b := not (2_000*(i+3_456_789)<i) and b;
+    put(i);  -- another comment
+End;
